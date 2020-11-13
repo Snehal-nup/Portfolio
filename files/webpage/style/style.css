@@ -1,0 +1,153 @@
+.body {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+.webpage-header {
+  background-image: url(../img/book9.jpg);
+  background-size: 100% 110vh;
+  width: 100%;
+  height: 110vh;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slogo {
+  height: auto;
+  width: 5vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.tag {
+  max-width: 100%;
+  margin: 0px;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-text {
+  margin: 30px;
+  font-size: 2vw;
+}
+
+li:hover {
+  background-color: red;
+  color: white;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  list-style-type: none;
+}
+
+.banner-text {
+  font-size: 3vw;
+  color: white;
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  left: 200px;
+}
+
+.main-content {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.footer-content {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-1 {
+  width: 30vw;
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  position: relative;
+  left: 450px;
+  top: 20px;
+  list-style-type: none;
+}
+
+.container :nth-child(2n) {
+  flex-direction: row-reverse;
+  margin: 0px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+}
+
+.page-img {
+  width: 35vw;
+  height: auto;
+  margin-left: 10px;
+}
+
+.page-text {
+  width: 40%;
+  padding: 50px;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .page-img {
+    width: 80%;
+    text-align: center;
+  }
+  .page-text {
+    width: 60%;
+  }
+
+  .container :nth-child(2n) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer-1 i {
+  text-align: center;
+}
+
+.icon-link {
+  color: white;
+}
+.last {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

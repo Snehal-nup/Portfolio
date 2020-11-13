@@ -1,0 +1,61 @@
+input,
+textarea {
+  background-color: #e3e3de;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+
+  height: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 1vw;
+}
+.form-left {
+  width: 45vw;
+  text-align: center;
+  padding-top: 13vw;
+  height: auto;
+  margin: 1vw;
+  background-color: #65f0a8;
+  color: white;
+}
+.form-right {
+  width: 20vw;
+  padding: 10vw;
+  height: auto;
+  text-align: center;
+  margin: 1vw;
+}
+.mar {
+  margin: 10px;
+}
+input {
+  height: 2vw;
+  width: 15vw;
+  border: white;
+}
+html {
+  font-family: "Poiret One", cursive;
+  font-size: 1.2em;
+}
+button {
+  height: 2vw;
+}
+.create {
+  color: #65f0a8;
+}
+
+button {
+  border: 2px solid white;
+  margin: 20px;
+  text-align: center;
+  border-radius: 60px;
+  height: 4vw;
+  width: 9vw;
+  color: white;
+}
+button,
+textarea {
+  background-color: #65f0a8;
+}

@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url(../image/profile.jpg);
+  background-size: 100% auto;
+  background-position: bottom;
+  max-width: 100%;
+  height: 45vw;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  width: 7vw;
+}
+
+.banner-content {
+  color: white;
+  text-align: center;
+  margin-top: 10vw;
+  width: auto;
+}
+
+.cont-button {
+  border: 2px solid white;
+  border-radius: 20px;
+  justify-content: center;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  padding: 10px;
+}
+
+.cont-button:hover {
+  background-color: red;
+}
+.cont-button-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items {
+  list-style-type: none;
+}
+
+.nav-text {
+  margin: 20px;
+}
+.nav-text:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+  width: 50vw;
+}
+
+.download {
+  border: 2px solid black;
+  width: 11vw;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+}
+
+.down-text {
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+}
+
+.main {
+  background-image: url(../image/banner2.jpg);
+  background-size: 100% auto;
+  max-width: 100%;
+  height: 45vw;
+}
+
+.main-content {
+  text-align: left;
+  padding-top: 4vw;
+  font-size: 1.3vw;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 60vw;
+  }
+  .main-content {
+    text-align: center;
+    font-size: 1.8vw;
+  }
+  .download {
+    margin-left: 40vw;
+  }
+  .form {
+    height: 30vw;
+  }
+  .footer {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 710px) {
+  .cont-button {
+    display: none;
+  }
+}
+.form {
+  text-align: center;
+  background-color: black;
+  height: auto;
+  padding: 5vw;
+  margin: 2vw;
+}
+input,
+textarea {
+  background-color: #969581;
+}
+input,
+::placeholder {
+  color: white;
+}
+.msg {
+  color: white;
+}
+.form-left {
+  display: flex;
+  flex-direction: column;
+}
+.form-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+input {
+  width: 30vw;
+  height: 3vw;
+}
+.button-sub {
+  margin: 3vw;
+}
+.in {
+  margin: 10px;
+}
+.message {
+  height: 8vw;
+}
+button,
+textarea {
+  background-color: red;
+}
+button {
+  padding: 0px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: auto;
+  text-align: center;
+}
+.social {
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 3vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 15vw;
+  margin-left: 41vw;
+}
